@@ -5,7 +5,7 @@ export const Sidebar=()=>{
         <>
         
             
-                <Box border="1px solid red" bg="rgb(245,245,245)" padding="10px">
+                <Box  padding="10px">
                     <Text textAlign="left" fontSize="2xl" fontWeight="bold">Filter by</Text>
                     <Text textAlign="left" fontSize="xl">Popular filters</Text>
                     
@@ -67,7 +67,7 @@ export const Sidebar=()=>{
                     <Checkbox size='md' colorScheme='green' >
                             Fully refunded
                         </Checkbox>
-                        <Checkbox size='md' colorScheme='green' >
+                        <Checkbox w='200px' size='md' colorScheme='green' >
                             Reverse now, pay later
                         </Checkbox>
                       
